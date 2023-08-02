@@ -1,0 +1,5 @@
+#Ingresar un número por teclado e imprimir el valor absoluto del número.
+numero = int(input("A continuacion ingrese un numero:"))
+if(numero < 0):
+ numero = numero * -1
+print(f"El valor absoluto es: ", numero)
