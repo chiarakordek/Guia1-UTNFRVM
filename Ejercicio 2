@@ -1,0 +1,7 @@
+#Leer dos números reales, calcular e imprimir los dos posibles cocientes entre ellos.
+numero = int(input("A continuacion ingrese un numero:"))
+numero2 = int(input("Ingrese otro numero:"))
+cociente1 = numero  / numero2
+cociente2 = numero2 / numero
+print(f'El primer cociente es:', cociente1)
+print(f'El segundo cociente es:', cociente2)
