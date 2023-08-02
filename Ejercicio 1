@@ -1,0 +1,10 @@
+#Leer un número e imprimirlo junto con sus primeros 4 múltiplos.
+numero = int(input("A continuacion ingrese un numero:"))
+multiplo1 = numero * 1
+multiplo2 = numero * 2
+multiplo3 = numero * 3
+multiplo4 = numero * 4
+print(f'El primer multiplo es:',multiplo1)
+print(f'El segundo multiplo es:',multiplo2)
+print(f'El tercer multiplo es:',multiplo3)
+print(f'El cuarto multiplo es:',multiplo4)
