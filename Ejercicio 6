@@ -1,0 +1,7 @@
+#Un pintor sabe que con una pintura determinada puede pintar 3,6 metros cuadrados por cada medio litro.
+#Sabiendo la altura y el largo de la pared a pintar, informar cuántos litros de pintura utilizará. (Altura y Largo en metros).
+altura = float(input("A continuacion ingrese cuantos metros de altura posee la pared:"))
+largo = float(input("A continuacion ingrese cuantos metros de largo posee la pared:"))
+UnLitro= 7.2 #metros
+Pared= altura * largo
+print(f'La cantidad total de pintura es: ', Pared//UnLitro , 'litros teniedo', Pared, 'metros de pared')
