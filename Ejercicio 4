@@ -1,0 +1,4 @@
+#Teniendo como dato el lado de un cuadrado, calcular e imprimir la superficie y perímetro.
+lado = int(input("A continuacion ingrese un lado del cuadrado:"))
+print(f'La superficie del cuadrado es: ', lado*lado)
+print(f'El perimetro del cuadrado es: ', lado*4) 
