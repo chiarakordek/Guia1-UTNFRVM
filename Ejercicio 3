@@ -1,0 +1,6 @@
+#Leer tres números, calcular e imprimir los seis posibles cocientes
+numero = int(input("A continuacion ingrese un numero:"))
+numero2 = int(input("Ingrese otro numero:"))
+numero3 = int(input("Ingrese otro numero:"))
+cocientes = numero  / numero2, numero  / numero3, numero2 / numero, numero2 / numero3, numero3 / numero, numero3 / numero2
+print(f'Los seis posibles cocientes de estos numero son:', cocientes)
