@@ -1,0 +1,6 @@
+#Si un lote de terreno tiene X metros de frente por Y metros de fondo.
+#Calcular e imprimir la cantidad da metros de alambre para cercarlo. (X e Y serán leídos al comenzar el programa).
+frente = int(input("A continuacion ingrese cuantos metros de frente posee el terreno:"))
+fondo = int(input("A continuacion ingrese cuantos metros de fondo posee el terreno:"))
+alambre= frente*2 + fondo*2
+print(f'La cantidad total de alambre es: ', alambre, 'metros') 
