@@ -1,0 +1,7 @@
+#Leer un número e informar si es entero
+numero = input("Escribe un numero: ")
+try:
+	entero = int(numero)
+	print("Lo que escribiste es un entero")
+except ValueError:
+	print("Lo que escribiste NO es un entero")
