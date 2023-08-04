@@ -1,0 +1,13 @@
+# Teniendo como dato la hipotenusa y el ángulo que forma ésta con la base de un triángulo rectángulo.
+# Calcular e imprimir los datos y ángulos restantes.
+import math
+hipotenusa = float(input('Ingrese el valor de la hipotenusa: '))
+angulo = float(input('Ingrese el valor del angulo: '))
+if angulo < 90:
+ anguloRestante = 180 - (angulo + 90)
+ print(f'El angulo restante es de', anguloRestante, '°')
+ ladoBase = hipotenusa * math.cos(angulo)
+ ladoRestante = hipotenusa * math.sin(angulo)
+ print(f'El lado de la base es de', ladoBase, 'y el otro lado es de' ,ladoRestante)
+else:
+    print(f'Tenga en cuenta que el angulo no puede ser mayor a 90°')
